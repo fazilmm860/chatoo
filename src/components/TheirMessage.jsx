@@ -7,7 +7,7 @@ const TheirMessage =({lastMessage,message})=>{
 
                 <div 
                  className="message-avatar"
-                 style={{backgroundImage:message.sender`url(${message ?.sender?.avatar})`}}
+                 style={{backgroundImage:message.sender &&`url(${message.sender.avatar})`}}
 
                 />
             )}
